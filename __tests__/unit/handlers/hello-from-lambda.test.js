@@ -6,7 +6,7 @@ describe('Test for hello-from-lambda', function () {
     // This test invokes helloFromLambdaHandler() and compare the result 
     it('Verifies successful response', async () => {
         // Invoke helloFromLambdaHandler()
-        const result = await lambda.helloFromLambdaHandler();
+        const result = await lambda.handler();
         /* 
             The expected result should match the return from your Lambda function.
             e.g. 
