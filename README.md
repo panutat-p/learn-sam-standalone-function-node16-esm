@@ -1,5 +1,23 @@
 # learn-sam-standalone-function-node16-esm
 
+```shell
+npm i -D typescript
+tsc --init
+npm i -D ts-node
+npm i -D esbuild
+npm i -D prettier
+npm i -D eslint
+npm init @eslint/config
+
+npm i @aws-sdk/client-s3
+npm i @aws-sdk/client-dynamodb @aws-sdk/lib-dynamodb
+npm i @aws-sdk/client-lambda
+npm i -D @types/aws-lambda
+
+npm i base-64
+npm i -D @types/base-64
+```
+
 This project contains source code and supporting files for a serverless application that you can deploy with the AWS Serverless Application Model (AWS SAM) command line interface (CLI). It includes the following files and folders:
 
 - `src` - Code for the application's Lambda function.
